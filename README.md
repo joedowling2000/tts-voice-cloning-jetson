@@ -17,17 +17,33 @@ This project implements high-quality voice cloning using the Tacotron2 model, sp
 ## 📁 Project Structure
 
 ```
-├── configs/                    # Training configurations
-│   └── henry_voice_v2_stable.json
-├── scripts/                    # Training and utility scripts
-│   ├── train_henry_v2_stable.py
-│   ├── process_audio.py
-│   ├── create_metadata.py
-│   └── validate_data.py
-├── docs/                      # Documentation
-│   └── training_version_control.md
-└── README.md
+tts-voice-cloning-jetson/
+├── README.md                           # Main documentation
+├── .gitignore                         # Privacy protection
+├── configs/                           # Configuration files
+│   ├── henry_voice_v2_stable.json    # Production ARM config
+│   ├── arm_max_quality_config.json   # Quality-optimized settings
+│   └── training_config.json          # Base training configuration
+├── scripts/                          # Executable scripts
+│   ├── training/                     # Training automation
+│   │   ├── train_henry_v2_stable.py # Main training script
+│   │   └── resume_training.py       # Resume from checkpoint
+│   ├── tools/                        # Data processing utilities
+│   │   ├── process_audio.py         # Audio preprocessing
+│   │   ├── create_metadata.py       # Metadata generation
+│   │   └── validate_data.py         # Data validation
+│   └── monitoring/                   # Training monitoring
+│       ├── monitor_training.py      # Real-time monitoring
+│       └── quick_status.sh          # Status checking
+├── shells/                           # Shell automation
+│   ├── monitor_training.sh          # Training monitoring
+│   └── workflow_summary.sh          # Project workflows
+└── docs/                             # Documentation
+    ├── training_version_control.md  # Version control guide
+    └── project_structure.md         # Architecture overview
 ```
+
+> **Note:** This project prioritizes clean organization and privacy protection. All voice data and trained models are excluded from version control.
 
 ## 🚀 Quick Start
 

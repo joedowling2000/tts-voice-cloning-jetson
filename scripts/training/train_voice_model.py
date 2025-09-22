@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Henry Voice Training V2 - Stable Version
+Voice Training V2 - Stable Version
 Improved training script with comprehensive error handling and logging
 """
 
@@ -61,7 +61,7 @@ def validate_environment():
 def create_run_directory():
     """Create versioned run directory"""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_name = f"henry_v2_stable_{timestamp}"
+    run_name = f"voice_v2_stable_{timestamp}"
     run_dir = f"/ssd/tts_project/training_runs/{run_name}"
     
     os.makedirs(run_dir, exist_ok=True)

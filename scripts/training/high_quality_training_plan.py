@@ -31,14 +31,14 @@ def analyze_current_limitations():
     
     print_colored("❌ VOICE CLONING LIMITATIONS:", Colors.RED)
     print_colored("   • Only used 6/80 samples (7.5% of your data)", Colors.RED)
-    print_colored("   • No training on Henry's specific speech patterns", Colors.RED)
+    print_colored("   • No training on the target speaker's specific speech patterns", Colors.RED)
     print_colored("   • Generic model adaptation, not custom training", Colors.RED)
-    print_colored("   • Limited exposure to Henry's unique voice characteristics", Colors.RED)
+    print_colored("   • Limited exposure to the target speaker's unique voice characteristics", Colors.RED)
     print_colored("   • No optimization for your specific recording conditions", Colors.RED)
     
     print_colored("\n✅ FULL TRAINING ADVANTAGES:", Colors.GREEN)
     print_colored("   • Uses ALL 80 samples (100% of your data)", Colors.GREEN)
-    print_colored("   • Learns Henry's specific speech patterns deeply", Colors.GREEN)
+    print_colored("   • Learns the target speaker's specific speech patterns deeply", Colors.GREEN)
     print_colored("   • Trains model weights specifically for the custom voice", Colors.GREEN)
     print_colored("   • Adapts to your recording environment and quality", Colors.GREEN)
     print_colored("   • Much higher quality and more natural speech", Colors.GREEN)
@@ -134,7 +134,7 @@ def create_advanced_config():
             }
         ],
         
-        # Optimized audio settings for Henry's recordings
+        # Optimized audio settings for the voice recordings
         "audio": {
             "sample_rate": 22050,
             "hop_length": 256,

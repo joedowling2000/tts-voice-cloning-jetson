@@ -1,10 +1,10 @@
-# Voice TTS Training Project
+# TTS Voice Cloning Framework
 
-A comprehensive Text-to-Speech (TTS) voice cloning project using Coqui TTS on ARM/Jetson Nano hardware.
+A comprehensive Text-to-Speech (TTS) voice cloning framework using Coqui TTS, optimized for ARM/Jetson Nano hardware.
 
 ## 🎯 Project Overview
 
-This project implements high-quality voice cloning using the Tacotron2 model, specifically optimized for ARM-based systems like the Jetson Nano. The setup includes robust training scripts, monitoring tools, and production-ready configurations.
+This framework implements high-quality voice cloning using the Tacotron2 model, specifically optimized for ARM-based systems like the Jetson Nano. The setup includes robust training scripts, monitoring tools, and production-ready configurations.
 
 ## 🛠️ Technical Stack
 
@@ -20,13 +20,18 @@ This project implements high-quality voice cloning using the Tacotron2 model, sp
 tts-voice-cloning-jetson/
 ├── README.md                           # Main documentation
 ├── .gitignore                         # Privacy protection
+├── src/                               # Source code modules
+│   ├── __init__.py                   # Framework package
+│   ├── training/                     # Training modules
+│   ├── audio/                        # Audio processing
+│   └── utils/                        # Utility functions
 ├── configs/                           # Configuration files
-│   ├── henry_voice_v2_stable.json    # Production ARM config
+│   ├── voice_config_stable.json     # Production ARM config
 │   ├── arm_max_quality_config.json   # Quality-optimized settings
 │   └── training_config.json          # Base training configuration
 ├── scripts/                          # Executable scripts
 │   ├── training/                     # Training automation
-│   │   ├── train_henry_v2_stable.py # Main training script
+│   │   ├── train_voice_model.py     # Main training script
 │   │   └── resume_training.py       # Resume from checkpoint
 │   ├── tools/                        # Data processing utilities
 │   │   ├── process_audio.py         # Audio preprocessing
@@ -74,7 +79,7 @@ python scripts/validate_data.py
 ### 3. Training
 ```bash
 # Start training with monitoring
-python scripts/train_henry_v2_stable.py
+python scripts/training/train_voice_model.py
 
 # Monitor with TensorBoard
 tensorboard --logdir=training_runs --port=6006
@@ -156,7 +161,7 @@ This repository contains only:
 
 ## 📝 License
 
-This project is for educational and research purposes. Please respect voice cloning ethics and obtain proper consent for any voice data used.
+This framework is for educational and research purposes. Please respect voice cloning ethics and obtain proper consent for any voice data used.
 
 ## 🤝 Contributing
 

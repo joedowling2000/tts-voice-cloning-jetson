@@ -1,0 +1,28 @@
+{
+  "model": "tacotron2",
+  "run_name": "henry_voice_simple_arm",
+  "datasets": [
+    {
+      "name": "henry_voice",
+      "path": "/ssd/tts_project/voice_data/",
+      "meta_file_train": "metadata_ljspeech.csv",
+      "formatter": "ljspeech"
+    }
+  ],
+  "audio": {
+    "sample_rate": 22050,
+    "hop_length": 256,
+    "win_length": 1024,
+    "n_fft": 1024,
+    "n_mels": 80,
+    "fmin": 0,
+    "fmax": 8000
+  },
+  "batch_size": 8,
+  "eval_batch_size": 4,
+  "epochs": 500,
+  "lr": 0.0001,
+  "output_path": "/ssd/tts_project/simple_arm_output/",
+  "print_step": 25,
+  "save_step": 500
+}

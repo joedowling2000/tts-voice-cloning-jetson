@@ -1,0 +1,19 @@
+# Training outputs
+training_runs/*/checkpoints/
+training_runs/*/plots/
+*.pth
+*.log
+
+# Environment
+*_env/
+__pycache__/
+*.pyc
+
+# Large files
+*.wav
+voice_data/
+
+# System files
+.DS_Store
+*.tmp
+nohup.out

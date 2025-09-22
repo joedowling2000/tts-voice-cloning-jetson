@@ -1,0 +1,107 @@
+{
+  "model": "tacotron2_ddc",
+  "run_name": "henry_voice",
+  "run_description": "Custom voice training for Henry",
+  "datasets": [
+    {
+      "name": "henry_dataset",
+      "path": "/ssd/tts_project/voice_data",
+      "meta_file_train": "metadata.csv",
+      "language": "en"
+    }
+  ],
+  "audio": {
+    "sample_rate": 22050,
+    "hop_length": 256,
+    "win_length": 1024,
+    "n_fft": 1024,
+    "n_mels": 80,
+    "fmin": 0,
+    "fmax": 8000,
+    "ref_level_db": 20,
+    "power": 1.5,
+    "preemphasis": 0.97,
+    "griffin_lim_iters": 60,
+    "do_trim_silence": true,
+    "trim_db": 60,
+    "do_sound_norm": true,
+    "stats_path": null
+  },
+  "model_args": {
+    "r": 1,
+    "gradual_training": [
+      [
+        0,
+        6,
+        64
+      ],
+      [
+        10000,
+        4,
+        32
+      ],
+      [
+        50000,
+        3,
+        32
+      ],
+      [
+        130000,
+        2,
+        32
+      ]
+    ],
+    "memory_size": 5,
+    "prenet_type": "original",
+    "prenet_dropout": true,
+    "forward_attn": true,
+    "trans_agent": true,
+    "forward_attn_mask": true,
+    "location_attn": false,
+    "attn_norm": "sigmoid",
+    "double_decoder_consistency": true,
+    "ddc_r": 6,
+    "speakers_file": null,
+    "use_speaker_embedding": false
+  },
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "num_loader_workers": 4,
+  "num_eval_loader_workers": 2,
+  "run_eval": true,
+  "test_delay_epochs": 10,
+  "epochs": 1000,
+  "lr": 0.0001,
+  "wd": 1e-06,
+  "grad_clip": 1.0,
+  "lr_scheduler": "NoamLR",
+  "lr_scheduler_params": {
+    "warmup_steps": 4000
+  },
+  "loss_masking": true,
+  "decoder_loss_alpha": 0.25,
+  "postnet_loss_alpha": 0.25,
+  "postnet_diff_spec_alpha": 0.25,
+  "decoder_diff_spec_alpha": 0.25,
+  "decoder_ssim_alpha": 0.25,
+  "postnet_ssim_alpha": 0.25,
+  "print_step": 25,
+  "plot_step": 100,
+  "log_model_step": 1000,
+  "save_step": 1000,
+  "save_n_checkpoints": 5,
+  "save_checkpoints": true,
+  "output_path": "/ssd/tts_project/training_output",
+  "logger_uri": null,
+  "tb_model_param_stats": false,
+  "precompute_num_workers": 4,
+  "use_phonemes": false,
+  "phoneme_language": "en-us",
+  "compute_input_seq_cache": true,
+  "text_cleaner": "english_cleaners",
+  "enable_eos_bos_chars": false,
+  "test_sentences_file": "",
+  "phoneme_cache_path": "/ssd/tts_project/phoneme_cache",
+  "mixed_precision": false,
+  "distributed": false
+}

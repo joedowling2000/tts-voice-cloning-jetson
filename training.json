@@ -1,0 +1,604 @@
+{
+  "training_data": [
+    {
+      "filename": "henry1.wav",
+      "text": "Hello, my name is Henry and I'm helping to train a voice model for artificial intelligence research."
+    },
+    {
+      "filename": "henry2.wav",
+      "text": "The quick brown fox jumps over the lazy dog while the sun shines brightly in the clear blue sky."
+    },
+    {
+      "filename": "henry3.wav",
+      "text": "What time is it right now? I think it's probably around three o'clock in the afternoon today."
+    },
+    {
+      "filename": "henry4.wav",
+      "text": "I love spending time with my family and friends, especially when we go on exciting adventures together."
+    },
+    {
+      "filename": "henry5.wav",
+      "text": "Today is a beautiful day for a walk in the park, and I can hear the birds singing cheerfully."
+    },
+    {
+      "filename": "henry6.wav",
+      "text": "Can you help me with my homework please? I'm working on a challenging mathematics problem right now."
+    },
+    {
+      "filename": "henry7.wav",
+      "text": "The weather forecast says it will be sunny tomorrow, which means we can play football outside after school."
+    },
+    {
+      "filename": "henry8.wav",
+      "text": "I enjoy reading books and playing video games during my free time, especially science fiction stories."
+    },
+    {
+      "filename": "henry9.wav",
+      "text": "Technology is amazing and constantly improving, making our lives easier and more connected than ever before."
+    },
+    {
+      "filename": "henry10.wav",
+      "text": "Thank you for listening to my voice recordings and helping me contribute to this interesting project."
+    },
+    {
+      "filename": "henry11.wav",
+      "text": "How are you doing today? I hope you're having a wonderful time and feeling happy and energetic."
+    },
+    {
+      "filename": "henry12.wav",
+      "text": "I hope you have a fantastic day ahead of you, filled with exciting opportunities and positive experiences."
+    },
+    {
+      "filename": "henry13.wav",
+      "text": "Science and mathematics are fascinating subjects that help us understand how the world works around us."
+    },
+    {
+      "filename": "henry14.wav",
+      "text": "Let's work together to create something amazing that will benefit people and make a real difference."
+    },
+    {
+      "filename": "henry15.wav",
+      "text": "The ocean waves crashed against the sandy shore while seagulls flew overhead in graceful circles."
+    },
+    {
+      "filename": "henry16.wav",
+      "text": "My favorite subjects at school are computer science, physics, and history because they're really interesting."
+    },
+    {
+      "filename": "henry17.wav",
+      "text": "During the weekend, I like to hang out with my friends and maybe watch a good movie together."
+    },
+    {
+      "filename": "henry18.wav",
+      "text": "Basketball is one of my favorite sports to play, and I practice shooting hoops almost every day."
+    },
+    {
+      "filename": "henry19.wav",
+      "text": "The pizza we ordered for dinner last night was absolutely delicious with extra cheese and pepperoni."
+    },
+    {
+      "filename": "henry20.wav",
+      "text": "I'm learning to play the guitar and it's challenging but really rewarding when I master a new song."
+    },
+    {
+      "filename": "henry21.wav",
+      "text": "My dog Max is incredibly playful and loves to fetch tennis balls in the backyard every morning."
+    },
+    {
+      "filename": "henry22.wav",
+      "text": "Video games have amazing graphics these days, and the storylines are becoming more complex and engaging."
+    },
+    {
+      "filename": "henry23.wav",
+      "text": "I'm really excited about the science fair next month where I'll present my project on renewable energy."
+    },
+    {
+      "filename": "henry24.wav",
+      "text": "The new Marvel movie was fantastic with incredible special effects and an exciting, action-packed plot."
+    },
+    {
+      "filename": "henry25.wav",
+      "text": "Summer vacation is approaching fast, and I can't wait to go camping with my family in the mountains."
+    },
+    {
+      "filename": "henry26.wav",
+      "text": "Artificial intelligence and machine learning are revolutionary technologies that will change everything we know."
+    },
+    {
+      "filename": "henry27.wav",
+      "text": "My bedroom is decorated with posters of my favorite bands and some cool LED lights around the ceiling."
+    },
+    {
+      "filename": "henry28.wav",
+      "text": "The chocolate cake my mom baked for my birthday was the most delicious dessert I've ever tasted."
+    },
+    {
+      "filename": "henry29.wav",
+      "text": "I enjoy riding my bicycle around the neighborhood, especially when the weather is nice and sunny."
+    },
+    {
+      "filename": "henry30.wav",
+      "text": "My younger sister is learning how to drive, and she's getting better at parking every single day."
+    },
+    {
+      "filename": "henry31.wav",
+      "text": "The astronomy club at school is organizing a stargazing event next Friday evening in the school courtyard."
+    },
+    {
+      "filename": "henry32.wav",
+      "text": "I've been saving money from my part-time job to buy a new laptop for coding and schoolwork."
+    },
+    {
+      "filename": "henry33.wav",
+      "text": "The library downtown has an excellent collection of books about space exploration and scientific discoveries."
+    },
+    {
+      "filename": "henry34.wav",
+      "text": "My friends and I are planning to start a band, and we're practicing in my garage every weekend."
+    },
+    {
+      "filename": "henry35.wav",
+      "text": "Climate change is a serious issue that requires immediate attention and action from everyone on Earth."
+    },
+    {
+      "filename": "henry36.wav",
+      "text": "The robotics competition this year was intense, but our team managed to finish in third place overall."
+    },
+    {
+      "filename": "henry37.wav",
+      "text": "I'm thinking about studying engineering in college because I love building things and solving complex problems."
+    },
+    {
+      "filename": "henry38.wav",
+      "text": "The hiking trail through the forest was beautiful, with tall trees and a crystal-clear stream running alongside."
+    },
+    {
+      "filename": "henry39.wav",
+      "text": "My grandmother tells the most interesting stories about what life was like when she was young."
+    },
+    {
+      "filename": "henry40.wav",
+      "text": "The concert last week was absolutely incredible, and the lead singer had an amazing voice throughout the show."
+    },
+    {
+      "filename": "henry41.wav",
+      "text": "I'm teaching myself how to code in Python because I want to create my own mobile applications."
+    },
+    {
+      "filename": "henry42.wav",
+      "text": "The chemistry experiment we did in class today produced some really cool colors and interesting reactions."
+    },
+    {
+      "filename": "henry43.wav",
+      "text": "My favorite TV show is about a group of teenagers solving mysteries in their small hometown."
+    },
+    {
+      "filename": "henry44.wav",
+      "text": "The soccer game yesterday was exciting, and our team scored the winning goal in the final minutes."
+    },
+    {
+      "filename": "henry45.wav",
+      "text": "I volunteer at the animal shelter every Saturday morning, helping to take care of abandoned pets."
+    },
+    {
+      "filename": "henry46.wav",
+      "text": "The new smartphone has incredible camera quality and battery life that lasts for more than two days."
+    },
+    {
+      "filename": "henry47.wav",
+      "text": "My art teacher says I have real talent for drawing, and she's encouraging me to enter a competition."
+    },
+    {
+      "filename": "henry48.wav",
+      "text": "The ice cream shop downtown makes the best milkshakes with real vanilla beans and fresh whipped cream."
+    },
+    {
+      "filename": "henry49.wav",
+      "text": "I'm really looking forward to driving lessons next year when I turn fifteen and get my learner's permit."
+    },
+    {
+      "filename": "henry50.wav",
+      "text": "The documentary about marine life was fascinating, showing incredible underwater creatures I've never seen before."
+    },
+    {
+      "filename": "henry51.wav",
+      "text": "My bedroom window overlooks the garden where my mom grows beautiful roses and colorful tulips every spring."
+    },
+    {
+      "filename": "henry52.wav",
+      "text": "The skateboarding park opened last month, and it has some really awesome ramps and grinding rails."
+    },
+    {
+      "filename": "henry53.wav",
+      "text": "I'm participating in the school debate team this year, and our first topic is about renewable energy."
+    },
+    {
+      "filename": "henry54.wav",
+      "text": "The thunderstorm last night was really loud, but I love listening to rain falling on the roof."
+    },
+    {
+      "filename": "henry55.wav",
+      "text": "My dad is teaching me how to change the oil in our car and other basic maintenance tasks."
+    },
+    {
+      "filename": "henry56.wav",
+      "text": "The virtual reality headset my uncle gave me creates the most realistic gaming experiences I've ever had."
+    },
+    {
+      "filename": "henry57.wav",
+      "text": "I'm working on a short story about time travel for my English class creative writing assignment."
+    },
+    {
+      "filename": "henry58.wav",
+      "text": "The local zoo has a new penguin exhibit that's really cool, with an underwater viewing area."
+    },
+    {
+      "filename": "henry59.wav",
+      "text": "My favorite breakfast is pancakes with maple syrup and fresh strawberries from our backyard garden."
+    },
+    {
+      "filename": "henry60.wav",
+      "text": "The escape room challenge was really difficult, but we managed to solve all the puzzles in time."
+    },
+    {
+      "filename": "henry61.wav",
+      "text": "I'm learning Spanish this year, and I hope to become fluent enough to travel to Mexico someday."
+    },
+    {
+      "filename": "henry62.wav",
+      "text": "The mountain biking trail was challenging but fun, with steep hills and rocky terrain throughout the course."
+    },
+    {
+      "filename": "henry63.wav",
+      "text": "My younger brother is really good at chess, and he beats me almost every time we play."
+    },
+    {
+      "filename": "henry64.wav",
+      "text": "The school talent show is next month, and I'm planning to perform a magic trick I've been practicing."
+    },
+    {
+      "filename": "henry65.wav",
+      "text": "The new restaurant downtown serves amazing burgers with sweet potato fries and homemade milkshakes."
+    },
+    {
+      "filename": "henry66.wav",
+      "text": "I'm really interested in photography and hope to get a professional camera for my birthday this year."
+    },
+    {
+      "filename": "henry67.wav",
+      "text": "The swimming pool at the community center is perfect for practicing my freestyle and backstroke techniques."
+    },
+    {
+      "filename": "henry68.wav",
+      "text": "My history teacher makes ancient civilizations come alive with her entertaining stories and detailed explanations."
+    },
+    {
+      "filename": "henry69.wav",
+      "text": "The camping trip with my scout group was fantastic, and we learned how to build fires and tie knots."
+    },
+    {
+      "filename": "henry70.wav",
+      "text": "I'm excited about the upcoming school dance because all my friends are going and the music will be great."
+    },
+    {
+      "filename": "henry71.wav",
+      "text": "The local arcade has some classic pinball machines and the newest video games with amazing graphics."
+    },
+    {
+      "filename": "henry72.wav",
+      "text": "My mom's homemade cookies are the best in the world, especially the chocolate chip ones she makes."
+    },
+    {
+      "filename": "henry73.wav",
+      "text": "The tennis lessons I'm taking have really improved my serve and backhand swing over the past few months."
+    },
+    {
+      "filename": "henry74.wav",
+      "text": "I volunteer at the local food bank every other weekend, helping to sort donations and serve meals."
+    },
+    {
+      "filename": "henry75.wav",
+      "text": "The amusement park has a new roller coaster that goes upside down three times and reaches incredible speeds."
+    },
+    {
+      "filename": "henry76.wav",
+      "text": "My bedroom has a really comfortable reading corner where I like to relax with a good book."
+    },
+    {
+      "filename": "henry77.wav",
+      "text": "The science museum downtown has an interactive exhibit about space exploration that's absolutely fascinating."
+    },
+    {
+      "filename": "henry78.wav",
+      "text": "I'm learning to cook simple meals like pasta and grilled cheese sandwiches in our kitchen."
+    },
+    {
+      "filename": "henry79.wav",
+      "text": "The basketball team at school had an amazing season, and we made it all the way to the regional finals."
+    },
+    {
+      "filename": "henry80.wav",
+      "text": "My favorite video game involves building cities and managing resources while dealing with natural disasters."
+    },
+    {
+      "filename": "henry81.wav",
+      "text": "The beach vacation we took last summer was incredible, with perfect weather and crystal-clear water."
+    },
+    {
+      "filename": "henry82.wav",
+      "text": "I'm really interested in learning about different cultures and their traditions from around the world."
+    },
+    {
+      "filename": "henry83.wav",
+      "text": "The local movie theater has comfortable reclining seats and serves fresh popcorn with real butter."
+    },
+    {
+      "filename": "henry84.wav",
+      "text": "My goal is to run a marathon before I graduate from high school in a few years."
+    },
+    {
+      "filename": "henry85.wav",
+      "text": "The computer programming club meets every Thursday after school in the technology lab."
+    },
+    {
+      "filename": "henry86.wav",
+      "text": "I enjoy playing board games with my family during winter evenings when it's cold outside."
+    },
+    {
+      "filename": "henry87.wav",
+      "text": "The neighborhood park has new playground equipment and a really nice walking trail around the pond."
+    },
+    {
+      "filename": "henry88.wav",
+      "text": "My favorite subject this semester is biology because we get to do interesting experiments with microscopes."
+    },
+    {
+      "filename": "henry89.wav",
+      "text": "The youth group at our church is organizing a community service project to help elderly neighbors."
+    },
+    {
+      "filename": "henry90.wav",
+      "text": "I'm saving up money to buy a new gaming console that comes out during the holiday season."
+    },
+    {
+      "filename": "henry91.wav",
+      "text": "The farmer's market on Saturday mornings has the freshest vegetables and the most delicious homemade bread."
+    },
+    {
+      "filename": "henry92.wav",
+      "text": "My uncle works as a software engineer and he's teaching me about artificial intelligence and machine learning."
+    },
+    {
+      "filename": "henry93.wav",
+      "text": "The drama club is performing Shakespeare this year, and I auditioned for a supporting character role."
+    },
+    {
+      "filename": "henry94.wav",
+      "text": "I love the feeling of accomplishment when I solve a difficult puzzle or complete a challenging video game level."
+    },
+    {
+      "filename": "henry95.wav",
+      "text": "The local bookstore has a cozy reading area where I can browse through comics and graphic novels."
+    },
+    {
+      "filename": "henry96.wav",
+      "text": "My favorite pizza topping combination is pepperoni, mushrooms, and extra cheese on a thick crust base."
+    },
+    {
+      "filename": "henry97.wav",
+      "text": "The cross-country running team practices every morning before school, rain or shine throughout the season."
+    },
+    {
+      "filename": "henry98.wav",
+      "text": "I'm working on building a model airplane that actually flies using a small remote control system."
+    },
+    {
+      "filename": "henry99.wav",
+      "text": "The annual science fair showcases student projects on topics ranging from renewable energy to space exploration."
+    },
+    {
+      "filename": "henry100.wav",
+      "text": "My bedroom has glow-in-the-dark stars on the ceiling that look amazing when all the lights are turned off."
+    },
+    {
+      "filename": "henry101.wav",
+      "text": "The local bowling alley has cosmic bowling on Friday nights with black lights and neon decorations everywhere."
+    },
+    {
+      "filename": "henry102.wav",
+      "text": "I'm learning to play chess better by studying different opening strategies and endgame techniques online."
+    },
+    {
+      "filename": "henry103.wav",
+      "text": "The community garden project allows students to grow their own vegetables and learn about sustainable farming."
+    },
+    {
+      "filename": "henry104.wav",
+      "text": "My favorite streaming series is about teenagers with superpowers who have to save the world from evil villains."
+    },
+    {
+      "filename": "henry105.wav",
+      "text": "The school recycling program helps reduce waste and teaches students about environmental responsibility and conservation."
+    },
+    {
+      "filename": "henry106.wav",
+      "text": "I enjoy creating digital art on my tablet using different brushes and color palettes to make landscapes."
+    },
+    {
+      "filename": "henry107.wav",
+      "text": "The local mini golf course has eighteen challenging holes with waterfalls, windmills, and moving obstacles."
+    },
+    {
+      "filename": "henry108.wav",
+      "text": "My goal is to learn three different programming languages before I graduate and start thinking about college."
+    },
+    {
+      "filename": "henry109.wav",
+      "text": "The winter formal dance is coming up, and I need to find the perfect outfit that matches my date's dress."
+    },
+    {
+      "filename": "henry110.wav",
+      "text": "My favorite dessert is chocolate lava cake with vanilla ice cream and fresh berries on the side."
+    },
+    {
+      "filename": "henry111.wav",
+      "text": "The environmental club at school organized a tree-planting event in the local park last weekend."
+    },
+    {
+      "filename": "henry112.wav",
+      "text": "I'm practicing guitar every day because I want to join the school band next semester as lead guitarist."
+    },
+    {
+      "filename": "henry113.wav",
+      "text": "The new virtual reality game lets you explore ancient civilizations and solve historical mysteries interactively."
+    },
+    {
+      "filename": "henry114.wav",
+      "text": "My favorite holiday tradition is decorating the Christmas tree with handmade ornaments and twinkling lights."
+    },
+    {
+      "filename": "henry115.wav",
+      "text": "The local makerspace has 3D printers and laser cutters where students can bring their creative ideas to life."
+    },
+    {
+      "filename": "henry116.wav",
+      "text": "I'm really excited about the upcoming field trip to the aerospace museum with its interactive flight simulators."
+    },
+    {
+      "filename": "henry117.wav",
+      "text": "The school newspaper needs more writers, so I'm thinking about joining to improve my journalism skills."
+    },
+    {
+      "filename": "henry118.wav",
+      "text": "My favorite outdoor activity is hiking through the forest trails while listening to birds singing in the trees."
+    },
+    {
+      "filename": "henry119.wav",
+      "text": "The local tech company offers summer internships for high school students interested in computer programming."
+    },
+    {
+      "filename": "henry120.wav",
+      "text": "I love the smell of fresh rain on summer evenings when thunder rumbles softly in the distance."
+    },
+    {
+      "filename": "henry121.wav",
+      "text": "The school's maker club is building a solar-powered car for the regional engineering competition next spring."
+    },
+    {
+      "filename": "henry122.wav",
+      "text": "My favorite breakfast on weekends is French toast with cinnamon, powdered sugar, and fresh maple syrup."
+    },
+    {
+      "filename": "henry123.wav",
+      "text": "The annual talent show gives students a chance to showcase their unique abilities and creative talents."
+    },
+    {
+      "filename": "henry124.wav",
+      "text": "I'm learning about renewable energy sources like solar panels and wind turbines in my environmental science class."
+    },
+    {
+      "filename": "henry125.wav",
+      "text": "The local animal shelter needs volunteers to help walk dogs and socialize cats with potential adopters."
+    },
+    {
+      "filename": "henry126.wav",
+      "text": "My favorite rainy day activity is building with Lego blocks and creating elaborate cities with detailed buildings."
+    },
+    {
+      "filename": "henry127.wav",
+      "text": "The school's debate team won the regional championship and will compete at the state level next month."
+    },
+    {
+      "filename": "henry128.wav",
+      "text": "I enjoy exploring different music genres and discovering new artists through streaming platforms and radio stations."
+    },
+    {
+      "filename": "henry129.wav",
+      "text": "The community center offers free tutoring sessions for students who need extra help with challenging subjects."
+    },
+    {
+      "filename": "henry130.wav",
+      "text": "My favorite winter activity is building snowmen in the backyard and having snowball fights with my siblings."
+    },
+    {
+      "filename": "henry131.wav",
+      "text": "The school's robotics team is designing an autonomous robot that can navigate obstacle courses and pick up objects."
+    },
+    {
+      "filename": "henry132.wav",
+      "text": "I'm really interested in learning about space exploration and maybe becoming an astronaut or aerospace engineer someday."
+    },
+    {
+      "filename": "henry133.wav",
+      "text": "The local farmers market has amazing fresh produce and homemade jams that taste better than store-bought versions."
+    },
+    {
+      "filename": "henry134.wav",
+      "text": "My favorite summer evening activity is stargazing in the backyard while listening to crickets chirping peacefully."
+    },
+    {
+      "filename": "henry135.wav",
+      "text": "The school's drama department is performing a modern adaptation of Romeo and Juliet this semester."
+    },
+    {
+      "filename": "henry136.wav",
+      "text": "I enjoy creating stop-motion animation videos using my smartphone and various household objects as characters."
+    },
+    {
+      "filename": "henry137.wav",
+      "text": "The local escape room has different themed challenges that require teamwork and creative problem-solving skills."
+    },
+    {
+      "filename": "henry138.wav",
+      "text": "My goal is to read fifty books this year, including classic literature and modern science fiction novels."
+    },
+    {
+      "filename": "henry139.wav",
+      "text": "The community's Earth Day celebration includes tree planting, recycling drives, and educational workshops about sustainability."
+    },
+    {
+      "filename": "henry140.wav",
+      "text": "I love the excitement of discovering new video games with innovative gameplay mechanics and stunning visual graphics."
+    },
+    {
+      "filename": "henry141.wav",
+      "text": "The school's honor society is organizing a fundraising event to provide scholarships for deserving students."
+    },
+    {
+      "filename": "henry142.wav",
+      "text": "My favorite way to spend a lazy Sunday afternoon is playing board games with friends and eating homemade snacks."
+    },
+    {
+      "filename": "henry143.wav",
+      "text": "The local aquarium has a new shark tunnel where visitors can walk through while sharks swim overhead."
+    },
+    {
+      "filename": "henry144.wav",
+      "text": "I'm excited about learning to drive because it will give me more independence and freedom to explore."
+    },
+    {
+      "filename": "henry145.wav",
+      "text": "The school's peer tutoring program pairs older students with younger ones to help with homework and study skills."
+    },
+    {
+      "filename": "henry146.wav",
+      "text": "My favorite comfort food is grilled cheese sandwiches with tomato soup on cold winter days."
+    },
+    {
+      "filename": "henry147.wav",
+      "text": "The annual charity walk raises money for local food banks and homeless shelters in our community."
+    },
+    {
+      "filename": "henry148.wav",
+      "text": "I enjoy learning about different cultures through their music, food, festivals, and traditional customs."
+    },
+    {
+      "filename": "henry149.wav",
+      "text": "The school's technology fair showcases student innovations in programming, engineering, and digital design projects."
+    },
+    {
+      "filename": "henry150.wav",
+      "text": "Thank you for listening to all these voice recordings, and I hope they help create an amazing artificial intelligence model."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "model": "tacotron2",
+  "run_name": "henry_voice_final",
+  "run_description": "High-quality training with all 80 samples",
+  "datasets": [
+    {
+      "name": "henry_dataset",
+      "path": "/ssd/tts_project/voice_data/",
+      "meta_file_train": "metadata_ljspeech.csv",
+      "formatter": "ljspeech",
+      "language": "en"
+    }
+  ],
+  "audio": {
+    "sample_rate": 22050,
+    "hop_length": 256,
+    "win_length": 1024,
+    "n_fft": 1024,
+    "n_mels": 80,
+    "fmin": 0,
+    "fmax": 8000,
+    "ref_level_db": 20,
+    "power": 1.5,
+    "preemphasis": 0.97,
+    "griffin_lim_iters": 60,
+    "do_trim_silence": true,
+    "trim_db": 45,
+    "do_sound_norm": true
+  },
+  "batch_size": 16,
+  "eval_batch_size": 8,
+  "num_loader_workers": 2,
+  "num_eval_loader_workers": 1,
+  "run_eval": true,
+  "test_delay_epochs": 5,
+  "epochs": 500,
+  "lr": 0.0001,
+  "wd": 1e-06,
+  "grad_clip": 1.0,
+  "print_step": 25,
+  "plot_step": 100,
+  "log_model_step": 500,
+  "save_step": 500,
+  "save_n_checkpoints": 5,
+  "save_checkpoints": true,
+  "output_path": "/ssd/tts_project/training_final/",
+  "use_phonemes": false,
+  "text_cleaner": "english_cleaners",
+  "enable_eos_bos_chars": false,
+  "mixed_precision": false,
+  "distributed": false
+}

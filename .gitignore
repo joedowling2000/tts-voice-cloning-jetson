@@ -40,3 +40,9 @@ nohup.out
 
 # Large config files with potentially sensitive paths
 **/best_model_*.pth
+
+# Training run outputs (NEVER upload these)
+training_runs/*/
+*.tfevents.*
+trainer_*.log.txt
+events.out.*

@@ -25,7 +25,7 @@ grep -i "loss" /ssd/tts_project/training_progress.log | tail -5
 
 echo ""
 echo "📁 TRAINING OUTPUT FILES:"
-ls -la /ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality*/
+ls -la /ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality*/
 
 echo ""
 echo "💾 CHECKPOINT FILES:"

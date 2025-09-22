@@ -267,7 +267,7 @@ def main():
     if success:
         print_section("Training Complete!")
         print_colored("🎉 HIGH-QUALITY TRAINING FINISHED!", Colors.GREEN)
-        print_colored("Your production-ready Henry voice model is ready!", Colors.GREEN)
+        print_colored("Your production-ready custom voice model is ready!", Colors.GREEN)
     
     return success
 

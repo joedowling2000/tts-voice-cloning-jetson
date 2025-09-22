@@ -177,7 +177,7 @@ def main():
     print_colored("\n📊 EXPECTED IMPROVEMENTS:", Colors.GREEN)
     print_colored("   Quality: 70% → 95%+ natural speech", Colors.GREEN)
     print_colored("   Data: Using ALL 80 samples (not 6)", Colors.GREEN)
-    print_colored("   Voice: Henry's exact voice characteristics", Colors.GREEN)
+    print_colored("   Voice: the target voice characteristics characteristics", Colors.GREEN)
     
     success = start_working_training()
     

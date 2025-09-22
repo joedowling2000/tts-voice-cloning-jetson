@@ -109,7 +109,7 @@ def main():
     print_colored("\n📊 QUALITY IMPROVEMENTS EXPECTED:", Colors.GREEN)
     print_colored("   Naturalness: 70% → 95%+ (25+ point improvement)", Colors.GREEN)
     print_colored("   Data usage: 6 samples → ALL 80 samples", Colors.GREEN)
-    print_colored("   Voice match: Generic → Henry's exact voice", Colors.GREEN)
+    print_colored("   Voice match: Generic → the target voice characteristics", Colors.GREEN)
     
     # Start training immediately
     success = start_training()
@@ -117,7 +117,7 @@ def main():
     if success:
         print_section("Training Complete!")
         print_colored("🎉 HIGH-QUALITY TRAINING FINISHED!", Colors.GREEN)
-        print_colored("Your production-ready Henry voice model is ready!", Colors.GREEN)
+        print_colored("Your production-ready custom voice model is ready!", Colors.GREEN)
         print_colored("\nNext steps:", Colors.BLUE)
         print_colored("   python3 scripts/test_model.py --interactive", Colors.BLUE)
     

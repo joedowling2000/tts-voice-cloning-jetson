@@ -34,7 +34,7 @@ fi
 echo
 echo "🎯 CHECKPOINT STATUS:"
 if [ -d "arm_max_quality_output" ]; then
-    latest_run=$(ls -1t arm_max_quality_output/ | grep henry_voice | head -1)
+    latest_run=$(ls -1t arm_max_quality_output/ | grep voice_model | head -1)
     if [ -n "$latest_run" ]; then
         echo "   Training run: $latest_run"
         checkpoint_count=$(ls arm_max_quality_output/$latest_run/*.pth 2>/dev/null | wc -l)

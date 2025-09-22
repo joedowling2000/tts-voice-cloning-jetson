@@ -1,10 +1,10 @@
 {
   "model": "tacotron2_ddc",
-  "run_name": "henry_voice",
+  "run_name": "custom_voice",
   "run_description": "Custom voice training for Henry",
   "datasets": [
     {
-      "name": "henry_dataset",
+      "name": "voice_dataset",
       "path": "/ssd/tts_project/voice_data",
       "meta_file_train": "metadata.csv",
       "language": "en"

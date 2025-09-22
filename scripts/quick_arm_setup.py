@@ -42,10 +42,10 @@ def create_simple_training_config():
     """Create a simple, working training configuration"""
     config = {
         "model": "tacotron2",
-        "run_name": "henry_voice_simple_arm",
+        "run_name": "custom_voice_simple_arm",
         
         "datasets": [{
-            "name": "henry_voice",
+            "name": "custom_voice",
             "path": "/ssd/tts_project/voice_data/",
             "meta_file_train": "metadata_ljspeech.csv",
             "formatter": "ljspeech"

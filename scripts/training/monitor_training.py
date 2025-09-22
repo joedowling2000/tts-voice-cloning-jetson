@@ -222,7 +222,7 @@ def get_training_files_info():
     try:
         # Find the latest training run directory
         run_dirs = [d for d in os.listdir(output_dir) 
-                   if os.path.isdir(os.path.join(output_dir, d)) and 'henry_voice' in d]
+                   if os.path.isdir(os.path.join(output_dir, d)) and 'custom_voice' in d]
         
         if not run_dirs:
             return "No training run directories found"

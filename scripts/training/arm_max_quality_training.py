@@ -225,7 +225,7 @@ def start_maximum_quality_training():
 def main():
     """Main training orchestrator"""
     print_colored(f"🎤 ARM MAXIMUM QUALITY TTS TRAINING", Colors.MAGENTA)
-    print_colored("Training Henry's voice for absolute maximum quality", Colors.CYAN)
+    print_colored("Training the custom voice for absolute maximum quality", Colors.CYAN)
     print_colored(f"Using TTS v0.13.3 ARM-optimized environment", Colors.CYAN)
     
     # Validation steps

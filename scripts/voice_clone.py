@@ -39,7 +39,7 @@ def prepare_voice_samples():
     
     # Copy a few high-quality samples for voice cloning
     # XTTS works best with 3-10 good quality samples
-    voice_files = sorted(list(Path(voice_data_dir).glob("henry*.wav")))
+    voice_files = sorted(list(Path(voice_data_dir).glob("voice*.wav")))
     
     if len(voice_files) == 0:
         print_colored("❌ No voice files found!", Colors.RED)
@@ -53,9 +53,9 @@ def prepare_voice_samples():
     for i, idx in enumerate(selected_indices):
         if idx < len(voice_files):
             src_file = voice_files[idx]
-            dst_file = os.path.join(clone_samples_dir, f"henry_sample_{i+1}.wav")
+            dst_file = os.path.join(clone_samples_dir, f"voice_sample_{i+1}.wav")
             shutil.copy2(src_file, dst_file)
-            print_colored(f"   ✅ {src_file.name} → henry_sample_{i+1}.wav", Colors.GREEN)
+            print_colored(f"   ✅ {src_file.name} → voice_sample_{i+1}.wav", Colors.GREEN)
     
     print_colored(f"\n🎵 Voice cloning samples ready in: {clone_samples_dir}", Colors.CYAN)
     return True
@@ -80,7 +80,7 @@ def setup_xtts():
         return None
 
 def clone_voice_and_test(tts):
-    """Clone Henry's voice and generate test samples"""
+    """Clone the custom voice and generate test samples"""
     print_section("Voice Cloning & Testing")
     
     clone_samples_dir = "/ssd/tts_project/voice_clone_samples"
@@ -97,7 +97,7 @@ def clone_voice_and_test(tts):
     
     # Test sentences
     test_sentences = [
-        "Hello, this is Henry speaking with my cloned voice.",
+        "Hello, this is the trained voice speaking with my cloned voice.",
         "The quick brown fox jumps over the lazy dog.",
         "I hope this voice cloning sounds natural and clear.",
         "This is a test of the voice cloning technology.",
@@ -144,9 +144,9 @@ def interactive_voice_clone(tts):
         print_colored("❌ No reference audio files found!", Colors.RED)
         return False
     
-    print_colored(f"🎯 Interactive mode ready with Henry's voice", Colors.GREEN)
+    print_colored(f"🎯 Interactive mode ready with the custom voice", Colors.GREEN)
     print_colored(f"📁 Output will be saved to: {output_dir}", Colors.BLUE)
-    print_colored(f"\n💬 Enter text to convert to Henry's voice (or 'quit' to exit):", Colors.CYAN)
+    print_colored(f"\n💬 Enter text to convert to the custom voice (or 'quit' to exit):", Colors.CYAN)
     
     counter = 1
     while True:
@@ -160,7 +160,7 @@ def interactive_voice_clone(tts):
         
         try:
             output_file = os.path.join(output_dir, f"interactive_clone_{counter}.wav")
-            print_colored(f"🎵 Generating speech with Henry's voice...", Colors.YELLOW)
+            print_colored(f"🎵 Generating speech with the custom voice...", Colors.YELLOW)
             
             tts.tts_to_file(
                 text=text,
@@ -188,7 +188,7 @@ def interactive_voice_clone(tts):
     return True
 
 def main():
-    print_colored(f"{Colors.BOLD}🎤 Henry's Voice Cloning with XTTS", Colors.CYAN)
+    print_colored(f"{Colors.BOLD}🎤 Custom Voice Cloning with XTTS", Colors.CYAN)
     print_colored("Fast voice cloning using pre-trained XTTS model", Colors.BLUE)
     
     print_colored(f"\n⚡ Why Voice Cloning vs Full Training:", Colors.YELLOW)
@@ -211,7 +211,7 @@ def main():
         return False
     
     print_section("Voice Cloning Complete!")
-    print_colored("🎉 Henry's voice has been successfully cloned!", Colors.GREEN)
+    print_colored("🎉 the custom voice has been successfully cloned!", Colors.GREEN)
     
     # Ask if user wants interactive mode
     print_colored(f"\n🎯 Would you like to try interactive mode?", Colors.CYAN)

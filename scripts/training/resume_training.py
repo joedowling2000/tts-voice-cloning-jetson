@@ -15,7 +15,7 @@ sys.path.append('/ssd/tts_project')
 
 def find_latest_checkpoint():
     """Find the latest checkpoint file"""
-    checkpoint_pattern = "/ssd/tts_project/training_runs/henry_v2_stable_20250922_170150/henry_voice_v2_stable-September-22-2025_05+01PM-0000000/best_model_*.pth"
+    checkpoint_pattern = "/ssd/tts_project/training_runs/henry_v2_stable_20250922_170150/custom_voice_v2_stable-September-22-2025_05+01PM-0000000/best_model_*.pth"
     checkpoints = glob.glob(checkpoint_pattern)
     
     if not checkpoints:

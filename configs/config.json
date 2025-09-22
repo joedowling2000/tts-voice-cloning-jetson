@@ -1,11 +1,11 @@
 {
     "model": "tacotron2",
-    "run_name": "henry_voice_training",
-    "run_description": "Training custom Henry voice with Tacotron2",
+    "run_name": "custom_voice_training",
+    "run_description": "Training custom voice with Tacotron2",
     
     "datasets": [
         {
-            "name": "henry_dataset",
+            "name": "voice_dataset",
             "path": "/ssd/tts_project/voice_data/",
             "meta_file_train": "metadata.csv",
             "meta_file_val": "metadata.csv",

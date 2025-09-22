@@ -18,8 +18,8 @@ def test_trained_model():
     print("=" * 50)
     
     # Model paths
-    model_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000/best_model.pth"
-    config_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000/config.json"
+    model_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000/best_model.pth"
+    config_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000/config.json"
     
     # Check if files exist
     if not os.path.exists(model_path):
@@ -36,7 +36,7 @@ def test_trained_model():
     
     # Test sentences
     test_sentences = [
-        "Hello, this is Henry speaking with the new high-quality voice model.",
+        "Hello, this is the trained voice speaking with the new high-quality voice model.",
         "The training was successful and now I can generate speech.",
         "Science and technology continue to advance at an incredible pace.",
         "Thank you for helping me create this custom voice model."
@@ -62,7 +62,7 @@ def test_trained_model():
         
         # Generate speech for each test sentence
         for i, text in enumerate(test_sentences, 1):
-            output_file = f"{output_dir}/henry_sample_{i}.wav"
+            output_file = f"{output_dir}/voice_sample_{i}.wav"
             
             print(f"\n📝 Sample {i}: {text[:50]}...")
             print(f"🎵 Generating: {os.path.basename(output_file)}")

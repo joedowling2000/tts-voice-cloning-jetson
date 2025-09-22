@@ -55,7 +55,7 @@ def show_output_locations():
     # Find current training run
     if os.path.exists(base_output):
         run_dirs = [d for d in os.listdir(base_output) 
-                   if os.path.isdir(os.path.join(base_output, d)) and 'henry_voice' in d]
+                   if os.path.isdir(os.path.join(base_output, d)) and 'custom_voice' in d]
         
         if run_dirs:
             current_run = sorted(run_dirs)[-1]
@@ -106,15 +106,15 @@ def show_usage_info():
 from TTS.api import TTS
 
 # Path to your trained model
-model_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_08+24PM-0000000/best_model.pth"
-config_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_08+24PM-0000000/config.json"
+model_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_08+24PM-0000000/best_model.pth"
+config_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_08+24PM-0000000/config.json"
 
 # Initialize TTS with your model
 tts = TTS(model_path=model_path, config_path=config_path)
 
 # Generate speech
-text = "Hello, this is Henry speaking with the new high-quality voice model."
-tts.tts_to_file(text=text, file_path="henry_output.wav")
+text = "Hello, this is the trained voice speaking with the new high-quality voice model."
+tts.tts_to_file(text=text, file_path="voice_output.wav")
 '''
     
     print_colored(usage_code, Colors.GREEN)
@@ -122,7 +122,7 @@ tts.tts_to_file(text=text, file_path="henry_output.wav")
     print_colored("\n📁 FILE STRUCTURE AFTER TRAINING:", Colors.YELLOW)
     structure = '''
 /ssd/tts_project/arm_max_quality_output/
-└── henry_voice_arm_max_quality-September-21-2025_08+24PM-0000000/
+└── voice_model_arm_max_quality-September-21-2025_08+24PM-0000000/
     ├── best_model.pth          # 🎯 MAIN MODEL FILE
     ├── checkpoint_1000.pth     # Checkpoint at step 1000
     ├── checkpoint_2000.pth     # Checkpoint at step 2000
@@ -142,7 +142,7 @@ def check_current_progress():
     
     if os.path.exists(base_output):
         run_dirs = [d for d in os.listdir(base_output) 
-                   if os.path.isdir(os.path.join(base_output, d)) and 'henry_voice' in d]
+                   if os.path.isdir(os.path.join(base_output, d)) and 'custom_voice' in d]
         
         if run_dirs:
             current_run = sorted(run_dirs)[-1]

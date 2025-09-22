@@ -1,7 +1,7 @@
 #!/bin/bash
 # Training vs Voice Cloning Comparison
 
-echo "🎤 Henry's Voice - Training Options Comparison"
+echo "🎤 Custom Voice - Training Options Comparison"
 echo "=============================================="
 echo ""
 echo "📊 OPTION 1: FULL MODEL TRAINING"

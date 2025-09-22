@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Hello World Generator for Henry's Voice
+Simple Hello World Generator for Custom Voice
 """
 
 import os
@@ -17,7 +17,7 @@ def generate_hello_world_simple():
         from TTS.utils.synthesizer import Synthesizer
         
         # Model paths
-        model_dir = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000"
+        model_dir = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000"
         model_path = f"{model_dir}/best_model.pth"
         config_path = f"{model_dir}/config.json"
         
@@ -37,7 +37,7 @@ def generate_hello_world_simple():
         # Create output directory
         output_dir = "/ssd/tts_project/hello_world_output"
         os.makedirs(output_dir, exist_ok=True)
-        output_file = f"{output_dir}/hello_world_henry.wav"
+        output_file = f"{output_dir}/hello_world_voice.wav"
         
         print("🔧 Loading synthesizer...")
         synthesizer = Synthesizer(
@@ -49,7 +49,7 @@ def generate_hello_world_simple():
         print("✅ Synthesizer loaded successfully")
         
         # Text to generate
-        text = "Hello World, this is Henry Dowling speaking, coming to you from the AI realm"
+        text = "Hello World, this is the trained speaker speaking, coming to you from the AI realm"
         print(f"📝 Text: {text}")
         
         print("🎵 Generating speech (this may take a few minutes on Jetson Nano)...")
@@ -72,7 +72,7 @@ def generate_hello_world_simple():
             print(f"📍 Full path: {abs_path}")
             
             print("\n🎉 HELLO WORLD GENERATION COMPLETE!")
-            print("🎧 You can now play the hello_world_henry.wav file")
+            print("🎧 You can now play the hello_world_voice.wav file")
             return True
         else:
             print("❌ File was not created successfully")

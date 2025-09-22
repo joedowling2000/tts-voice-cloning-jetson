@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate Hello World message with Henry's voice
+Generate Hello World message with the custom voice
 """
 
 import os
@@ -11,14 +11,14 @@ from datetime import datetime
 sys.path.append('/ssd/tts_project')
 
 def generate_hello_world():
-    """Generate the Hello World message using Henry's voice"""
+    """Generate the Hello World message using the custom voice"""
     
     print("🎤 GENERATING HELLO WORLD WITH HENRY'S VOICE")
     print("=" * 50)
     
     # Model paths (using the successfully trained model)
-    model_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000/best_model.pth"
-    config_path = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000/config.json"
+    model_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000/best_model.pth"
+    config_path = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000/config.json"
     
     # Check if files exist
     if not os.path.exists(model_path):
@@ -65,8 +65,8 @@ def generate_hello_world():
         print("-" * 40)
         
         # The requested text
-        text = "Hello World, this is Henry Dowling speaking, coming to you from the AI realm"
-        output_file = os.path.join(output_dir, "hello_world_henry.wav")
+        text = "Hello World, this is the trained speaker speaking, coming to you from the AI realm"
+        output_file = os.path.join(output_dir, "hello_world_voice.wav")
         
         print(f"📝 Text: {text}")
         print(f"🎵 Generating: {os.path.basename(output_file)}")
@@ -96,7 +96,7 @@ def generate_hello_world():
         print(f"   📍 {output_file}")
         
         print(f"\n🎊 HELLO WORLD GENERATION COMPLETED!")
-        print(f"🎤 Henry says: 'Hello World' from the AI realm!")
+        print(f"🎤 The voice says: 'Hello World' from the AI realm!")
         
         return True
         

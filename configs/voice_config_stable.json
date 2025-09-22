@@ -1,11 +1,11 @@
 {
   "model": "tacotron2",
-  "run_name": "henry_voice_v2_stable",
+  "run_name": "custom_voice_v2_stable",
   "run_description": "Improved stable training with fixed attention, stopnet, and error handling - Version 2.0",
   
   "datasets": [
     {
-      "name": "henry_dataset",
+      "name": "voice_dataset",
       "path": "/ssd/tts_project/voice_data/processed_audio/",
       "meta_file_train": "metadata_ljspeech.csv",
       "formatter": "ljspeech",

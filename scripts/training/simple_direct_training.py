@@ -12,10 +12,10 @@ def create_simple_config():
     """Create minimal working config"""
     config = {
         "model": "tacotron2",
-        "run_name": "henry_voice_simple",
+        "run_name": "custom_voice_simple",
         
         "datasets": [{
-            "name": "henry_voice",
+            "name": "custom_voice",
             "path": "/ssd/tts_project/voice_data/",
             "meta_file_train": "metadata_ljspeech.csv",
             "formatter": "ljspeech"

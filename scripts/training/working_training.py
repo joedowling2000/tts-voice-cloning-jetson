@@ -31,12 +31,12 @@ def create_working_config():
     """Create a working training configuration"""
     config = {
         "model": "tacotron2",
-        "run_name": "henry_voice_final",
+        "run_name": "custom_voice_final",
         "run_description": "High-quality training with all 80 samples",
         
         "datasets": [
             {
-                "name": "henry_dataset",
+                "name": "voice_dataset",
                 "path": "/ssd/tts_project/voice_data/",
                 "meta_file_train": "metadata_ljspeech.csv",
                 "formatter": "ljspeech",

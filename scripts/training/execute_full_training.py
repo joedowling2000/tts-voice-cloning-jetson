@@ -78,7 +78,7 @@ echo ""
 
 while true; do
     clear
-    echo "🎤 Henry's Voice Training Monitor - $(date)"
+    echo "🎤 Custom Voice Training Monitor - $(date)"
     echo "============================================"
     echo ""
     
@@ -249,7 +249,7 @@ def show_next_steps():
 
 def main():
     print_colored(f"{Colors.BOLD}🎤 HIGH-QUALITY TRAINING EXECUTION", Colors.CYAN)
-    print_colored("Training Henry's voice with ALL 80 samples for maximum quality", Colors.BLUE)
+    print_colored("Training the custom voice with ALL 80 samples for maximum quality", Colors.BLUE)
     
     # Validate environment
     if not validate_environment():

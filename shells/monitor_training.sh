@@ -7,7 +7,7 @@ echo ""
 
 while true; do
     clear
-    echo "🎤 Henry's Voice Training Monitor - $(date)"
+    echo "🎤 Custom Voice Training Monitor - $(date)"
     echo "============================================"
     echo ""
     

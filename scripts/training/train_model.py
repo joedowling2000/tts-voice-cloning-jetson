@@ -28,19 +28,19 @@ def print_section(title):
     print(f"🎯 {title}")
     print(f"{'=' * 60}{Colors.END}")
 
-def create_training_config(project_dir, model_name="henry_voice"):
+def create_training_config(project_dir, model_name="custom_voice"):
     """Create TTS training configuration"""
     print_section("Creating Training Configuration")
     
     config = {
         "model": "tacotron2_ddc",
         "run_name": model_name,
-        "run_description": "Custom voice training for Henry",
+        "run_description": "Custom voice training",
         
         # Dataset configuration
         "datasets": [
             {
-                "name": "henry_dataset",
+                "name": "voice_dataset",
                 "path": os.path.join(project_dir, "voice_data"),
                 "meta_file_train": "metadata.csv",
                 "language": "en"
@@ -240,7 +240,7 @@ def main():
     args = parser.parse_args()
     
     print_colored(f"{Colors.BOLD}🎤 Coqui TTS Model Training", Colors.CYAN)
-    print_colored(f"Training custom voice model for Henry", Colors.CYAN)
+    print_colored(f"Training custom voice model", Colors.CYAN)
     
     project_dir = "/ssd/tts_project"
     

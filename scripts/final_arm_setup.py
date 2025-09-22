@@ -52,11 +52,11 @@ def create_working_config():
     """Create a working training configuration for ARM"""
     config = {
         "model": "tacotron2",
-        "run_name": "henry_voice_arm_final",
+        "run_name": "custom_voice_arm_final",
         "run_description": "ARM-optimized high-quality training",
         
         "datasets": [{
-            "name": "henry_voice",
+            "name": "custom_voice",
             "path": "/ssd/tts_project/voice_data/",
             "meta_file_train": "metadata_ljspeech.csv",
             "formatter": "ljspeech",

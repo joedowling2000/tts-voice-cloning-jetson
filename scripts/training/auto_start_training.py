@@ -104,7 +104,7 @@ def start_training():
 
 def main():
     print_colored(f"{Colors.BOLD}🎤 AUTO-STARTING HIGH-QUALITY TRAINING", Colors.CYAN)
-    print_colored("Training Henry's voice with ALL 80 samples", Colors.BLUE)
+    print_colored("Training the custom voice with ALL 80 samples", Colors.BLUE)
     
     print_colored("\n📊 QUALITY IMPROVEMENTS EXPECTED:", Colors.GREEN)
     print_colored("   Naturalness: 70% → 95%+ (25+ point improvement)", Colors.GREEN)

@@ -39,7 +39,7 @@ def analyze_current_limitations():
     print_colored("\n✅ FULL TRAINING ADVANTAGES:", Colors.GREEN)
     print_colored("   • Uses ALL 80 samples (100% of your data)", Colors.GREEN)
     print_colored("   • Learns Henry's specific speech patterns deeply", Colors.GREEN)
-    print_colored("   • Trains model weights specifically for Henry's voice", Colors.GREEN)
+    print_colored("   • Trains model weights specifically for the custom voice", Colors.GREEN)
     print_colored("   • Adapts to your recording environment and quality", Colors.GREEN)
     print_colored("   • Much higher quality and more natural speech", Colors.GREEN)
 
@@ -121,12 +121,12 @@ def create_advanced_config():
     
     config = {
         "model": "tacotron2",
-        "run_name": "henry_voice_full_training",
+        "run_name": "custom_voice_full_training",
         "run_description": "High-quality training with all 80 samples",
         
         "datasets": [
             {
-                "name": "henry_full_dataset",
+                "name": "voice_full_dataset",
                 "path": "/ssd/tts_project/voice_data/",
                 "meta_file_train": "metadata_train.csv",
                 "meta_file_val": "metadata_val.csv", 
@@ -217,7 +217,7 @@ def create_advanced_config():
         # Data augmentation
         "datasets": [
             {
-                "name": "henry_full_dataset",
+                "name": "voice_full_dataset",
                 "path": "/ssd/tts_project/voice_data/",
                 "meta_file_train": "metadata_train.csv",
                 "meta_file_val": "metadata_val.csv",

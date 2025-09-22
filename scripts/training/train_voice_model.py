@@ -73,7 +73,7 @@ def create_run_directory():
 
 def prepare_config(run_dir):
     """Prepare training configuration"""
-    config_template = "/ssd/tts_project/configs/henry_voice_v2_stable.json"
+    config_template = "/ssd/tts_project/configs/custom_voice_v2_stable.json"
     config_file = os.path.join(run_dir, "config.json")
     
     # Load and modify config

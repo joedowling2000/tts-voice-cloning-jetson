@@ -1,11 +1,11 @@
 {
   "model": "tacotron2",
-  "run_name": "henry_voice_arm_max_quality",
+  "run_name": "custom_voice_arm_max_quality",
   "run_description": "Maximum quality ARM training with all 80 samples using TTS v0.13.3",
   
   "datasets": [
     {
-      "name": "henry_dataset",
+      "name": "voice_dataset",
       "path": "/ssd/tts_project/voice_data/processed_audio/",
       "meta_file_train": "metadata_ljspeech.csv",
       "formatter": "ljspeech",
@@ -94,7 +94,7 @@
   "text_cleaner": "english_cleaners",
   "enable_eos_bos_chars": false,
   "test_sentences": [
-    "Hello, this is Henry speaking with the new high-quality voice model.",
+    "Hello, this is the trained voice speaking with the new high-quality voice model.",
     "The quality of this synthetic speech should be significantly improved over previous attempts.",
     "Science and mathematics are fascinating subjects that help us understand how the world works around us.",
     "Thank you for listening to my voice recordings and helping me contribute to this interesting project."

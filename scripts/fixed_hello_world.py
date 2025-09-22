@@ -18,7 +18,7 @@ def generate_hello_world_fixed():
         from TTS.tts.configs.tacotron2_config import Tacotron2Config
         
         # Model paths
-        model_dir = "/ssd/tts_project/arm_max_quality_output/henry_voice_arm_max_quality-September-21-2025_09+38PM-0000000"
+        model_dir = "/ssd/tts_project/arm_max_quality_output/voice_model_arm_max_quality-September-21-2025_09+38PM-0000000"
         model_path = f"{model_dir}/best_model.pth"
         config_path = f"{model_dir}/config.json"
         
@@ -56,8 +56,8 @@ def generate_hello_world_fixed():
         test_cases = [
             ("Hello World", "hello_fixed_short.wav"),
             ("Hello World, this is Henry", "hello_fixed_medium.wav"),
-            ("Hello World, this is Henry Dowling speaking", "hello_fixed_long.wav"),
-            ("Hello World, this is Henry Dowling speaking, coming to you from the AI realm", "hello_fixed_full.wav")
+            ("Hello World, this is the trained speaker speaking", "hello_fixed_long.wav"),
+            ("Hello World, this is the trained speaker speaking, coming to you from the AI realm", "hello_fixed_full.wav")
         ]
         
         for text, filename in test_cases:

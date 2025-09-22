@@ -48,7 +48,7 @@ def start_simple_training():
         "--dataset_path", "/ssd/tts_project/voice_data",
         "--dataset_name", "ljspeech", 
         "--output_path", output_dir,
-        "--run_name", "henry_voice_v2",
+        "--run_name", "custom_voice_v2",
         "--epochs", "400",
         "--batch_size", "16",
         "--lr", "0.0001",

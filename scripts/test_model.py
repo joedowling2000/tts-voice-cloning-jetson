@@ -66,7 +66,7 @@ def test_model_synthesis(checkpoint_path, config_path, test_texts=None):
     
     if test_texts is None:
         test_texts = [
-            "Hello, this is Henry speaking.",
+            "Hello, this is the trained voice speaking.",
             "The quick brown fox jumps over the lazy dog.",
             "I hope this custom voice model sounds good!",
             "This is a test of the text to speech system.",
@@ -182,7 +182,7 @@ def main():
     args = parser.parse_args()
     
     print_colored(f"{Colors.BOLD}🎤 TTS Model Testing", Colors.CYAN)
-    print_colored(f"Testing Henry's custom voice model", Colors.CYAN)
+    print_colored(f"Testing the custom voice model", Colors.CYAN)
     
     project_dir = "/ssd/tts_project"
     training_output_dir = os.path.join(project_dir, "training_output")

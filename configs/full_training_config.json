@@ -1,10 +1,10 @@
 {
   "model": "tacotron2",
-  "run_name": "henry_voice_full_training",
+  "run_name": "custom_voice_full_training",
   "run_description": "High-quality training with all 80 samples",
   "datasets": [
     {
-      "name": "henry_full_dataset",
+      "name": "voice_full_dataset",
       "path": "/ssd/tts_project/voice_data/",
       "meta_file_train": "metadata_train.csv",
       "meta_file_val": "metadata_val.csv",

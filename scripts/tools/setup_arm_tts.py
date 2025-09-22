@@ -121,12 +121,12 @@ def create_arm_config():
     """Create ARM-optimized training config"""
     config = {{
         "model": "tacotron2",
-        "run_name": "henry_voice_arm_quality",
+        "run_name": "custom_voice_arm_quality",
         "run_description": "High-quality ARM training with all 80 samples",
         
         # Dataset configuration
         "datasets": [{{
-            "name": "henry_dataset",
+            "name": "voice_dataset",
             "path": "/ssd/tts_project/voice_data/",
             "meta_file_train": "metadata_ljspeech.csv",
             "formatter": "ljspeech",
@@ -210,7 +210,7 @@ def create_arm_config():
         "text_cleaner": "english_cleaners",
         "enable_eos_bos_chars": False,
         "test_sentences": [
-            "Hello, this is Henry speaking with the new high-quality voice model.",
+            "Hello, this is the trained voice speaking with the new high-quality voice model.",
             "The quality of this synthetic speech should be significantly improved.",
             "Science and mathematics are fascinating subjects that help us understand the world."
         ],

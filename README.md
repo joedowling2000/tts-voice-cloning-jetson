@@ -1,4 +1,4 @@
-# Henry Voice TTS Training Project
+# Voice TTS Training Project
 
 A comprehensive Text-to-Speech (TTS) voice cloning project using Coqui TTS on ARM/Jetson Nano hardware.
 

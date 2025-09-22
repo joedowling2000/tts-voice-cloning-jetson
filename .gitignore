@@ -1,19 +1,42 @@
-# Training outputs
-training_runs/*/checkpoints/
-training_runs/*/plots/
+# PRIVACY: Voice data and models (DO NOT UPLOAD)
+voice_data/
+*.wav
+*.mp3
+*.flac
+*.ogg
 *.pth
-*.log
+*.pt
+*.ckpt
+*.model
 
-# Environment
+# Training outputs and logs
+training_runs/
+*.log
+*.out
+logs/
+checkpoints/
+outputs/
+plots/
+
+# TensorBoard files
+events.out.tfevents.*
+*.tfevents.*
+
+# Environment and dependencies
 *_env/
+venv/
+env/
+.env
 __pycache__/
 *.pyc
+*.pyo
 
-# Large files
-*.wav
-voice_data/
-
-# System files
+# System and temporary files
 .DS_Store
 *.tmp
 nohup.out
+.vscode/
+.idea/
+
+# Large config files with potentially sensitive paths
+**/best_model_*.pth

@@ -1,0 +1,24 @@
+# Basic test sentences
+Hello, this is a test of the voice synthesis system.
+The quick brown fox jumps over the lazy dog.
+How are you doing today? I hope everything is going well.
+
+# Technical content
+The MacBook Air M2 chip provides excellent performance for machine learning inference.
+PyTorch and TensorFlow are popular frameworks for deep learning applications.
+The model was trained using Tacotron2 architecture with a decoder-postnet structure.
+
+# Challenging phonetics
+She sells seashells by the seashore.
+Peter Piper picked a peck of pickled peppers.
+The sixth sick sheik's sixth sheep's sick.
+
+# Questions and variations
+What time is it right now?
+Could you please repeat that again?
+I'm excited about this new technology!
+
+# Longer passages
+The morning light filtered through the autumn leaves, creating a beautiful mosaic of colors on the forest floor. Golden and red hues painted the landscape, while a gentle breeze rustled through the trees. It was the perfect day for a peaceful walk in nature.
+
+Good morning everyone, and welcome to today's presentation. We'll be discussing the latest developments in text-to-speech synthesis, including recent advances in neural network architectures and their practical applications.

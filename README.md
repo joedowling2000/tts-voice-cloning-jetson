@@ -159,25 +159,6 @@ This repository contains only:
 - ❌ Personal audio data
 - ❌ Training outputs
 
-## 📝 License
 
-This framework is for educational and research purposes. Please respect voice cloning ethics and obtain proper consent for any voice data used.
 
-## 🤝 Contributing
-
-Feel free to contribute improvements to:
-- ARM optimization techniques
-- Training efficiency
-- Configuration management
-- Documentation
-
-## 📞 Support
-
-For issues related to:
-- Jetson Nano setup: Check hardware compatibility
-- Training problems: Review logs and configurations
-- Performance: Monitor system resources
-
----
-
-**Note:** This is a privacy-conscious repository. No personal voice data or trained models are included.
+**Note:** No personal voice data or trained models are included.
